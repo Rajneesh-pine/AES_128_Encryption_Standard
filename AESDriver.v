@@ -22,8 +22,8 @@ assign e128 = (encrypted128 == expected128 && enable) ? 1'b1 : 1'b0;
 // The result of the decryption module
 wire [127:0] decrypted128;
 
-AES_Encrypt #(128, 10, 4) a(in, key128, encrypted128);
-AES_Decrypt #(128, 10, 4) a2(encrypted128, key128, decrypted128);
+AESEncrypt #(128, 10, 4) a(in, key128, encrypted128);
+AESDecrypt #(128, 10, 4) a2(encrypted128, key128, decrypted128);
 
 assign d128 = (decrypted128 == in && enable) ? 1'b1 : 1'b0;
 
