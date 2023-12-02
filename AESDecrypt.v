@@ -15,7 +15,7 @@ genvar i;
 generate
 	
 	for(i=1; i<Nr ;i=i+1)begin : loop
-		decryptRound dr(states[i-1],fullkeys[i*128+:128],states[i]);
+		DecryptRound dr(states[i-1],fullkeys[i*128+:128],states[i]);
 		
 		end
 		InvShiftRows sr(states[Nr-1],afterShiftRows);
