@@ -5,7 +5,7 @@ reg [127:0] key;
 wire [127:0] out;	
 
 
-addRoundKey m (in, out, key);
+AddRKey m (in, out, key);
 
 
 initial begin
