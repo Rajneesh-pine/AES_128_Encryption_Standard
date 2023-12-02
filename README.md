@@ -55,3 +55,19 @@ AES-128 is considered secure for a wide range of applications. However, the secu
 ## Conclusion
 
 AES-128 provides a robust and efficient method for symmetric encryption. Understanding the key generation, encryption, and decryption processes is crucial for implementing secure communication and data protection. Always follow best practices for key management and stay informed about any developments in cryptographic research and technology.
+
+**#Requirements**
+
+Xilinux ISE project navigator or AMD Vivado
+
+**#Contributing**
+
+Contributions are welcome! If you find any issues or have suggestions for improvements, please open an issue or create a pull request.
+
+**#Acknowledgments**
+
+Thanks to the verilog programming community for valuable insights and support. Feel free to customize this README file based on the specific details of AES_128_Encryption_Standard project. Add information about additional features, dependencies, or any other relevant details.
+
+###########################################################################################################
+
+
