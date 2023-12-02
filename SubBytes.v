@@ -7,7 +7,7 @@ module SubBytes(
 
   generate
     for (i = 0; i < 128; i = i + 8) begin : sub_Bytes
-      sbox s(in[i +: 8], out[i +: 8]);
+      Sbox s(in[i +: 8], out[i +: 8]);
     end
   endgenerate
 
