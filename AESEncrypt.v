@@ -15,7 +15,7 @@ genvar i;
 generate
 	
 	for(i=1; i<Nr ;i=i+1)begin : loop
-		encryptRound er(states[i-1],fullkeys[(((128*(Nr+1))-1)-128*i)-:128],states[i]);
+		EncryptRound er(states[i-1],fullkeys[(((128*(Nr+1))-1)-128*i)-:128],states[i]);
 		
 		end
 		SubBytes sb(states[Nr-1],afterSubBytes);
