@@ -3,7 +3,7 @@ module AESEncryptTestBench;
   wire [127:0] out1;
   reg [127:0] key1;
 
-  AES_Encrypt a(in1, key1, out1);
+  AESEncrypt a(in1, key1, out1);
 
   initial begin
     // Test for 128-bit AESEncrypt
